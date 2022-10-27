@@ -28,22 +28,22 @@ class Main extends Component {
                 <section id='links'>
                     <div id='main'>
                     <div className='twitter'>
-                        <a href='https://twitter.com/edisonnosakhare' id='twitter' target='_blank' >Twitter Link</a>
+                        <a href='https://twitter.com/edisonnosakhare' id='twitter' target='_blank'><p>Twitter Link</p></a>
                     </div>
                     <div className='twitter'>
-                        <a href='https://training.zuri.team/' id='btn_zuri' target='_blank' >Zuri Team</a>
+                        <a href='https://training.zuri.team/' id='btn_zuri' target='_blank' ><p>Zuri Team</p></a>
                     </div>
                     <div className='twitter'>
-                        <a href='https://books.zuri.team' id='books' target='_blank' >Zuri books</a>
+                        <a href='https://books.zuri.team' id='books' target='_blank' ><p>Zuri books</p></a>
                     </div>
                     <div className='twitter'>
-                        <a href='https://books.zuri.team/python-for-beginners?ref_id = Edison Nosakhare' target='_blank' id='book_python' >Python Books</a>
+                        <a href='https://books.zuri.team/python-for-beginners?ref_id = Edison Nosakhare' target='_blank' id='book_python' ><p>Python Books</p></a>
                     </div>
                     <div className='twitter'>
-                        <a href='https://background.zuri.team' target='_blank' id='pitch' >Background Checkers for coders</a>
+                        <a href='https://background.zuri.team' target='_blank' id='pitch'><p>Background Checkers for coders</p></a>
                     </div>
                     <div className='twitter'>
-                        <a href='https://books.zuri.team/design-rules' target='_blank' id='book_design' >Design Books</a>
+                        <a href='https://books.zuri.team/design-rules' target='_blank' id='book_design'><p>Design Books</p></a>
                     </div>
                     </div>
                     
