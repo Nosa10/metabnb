@@ -23,8 +23,9 @@ class Main extends Component {
                         </div>
                 
                         <br/>
-                        <h1 id='slack'>Edison Nosakhare</h1>
                         <h1 id='twitter'>Nosa</h1>
+                        <h1 id='slack'>Edison Nosakhare</h1>
+                        
                     </header>
                 </section>
                 <section id='links'>
