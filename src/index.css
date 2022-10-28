@@ -73,7 +73,7 @@ body {
 }
 @media (max-width:281px) {
   #main a {
-    width: 75%;
+    width: 90%;
     font-size: 16px;
   }
 }
@@ -120,4 +120,8 @@ a:hover{
     display: flex;
     justify-content: space-between;
   }
+}
+footer{
+  margin-left: 20px;
+  margin-right: 20px;
 }
