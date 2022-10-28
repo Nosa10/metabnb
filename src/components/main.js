@@ -13,38 +13,28 @@ class Main extends Component {
                 <section id='profile'>
                     <header>
                        <div className='relative'>
-                           <img src='/assets/images/profile.jpg' alt='profile' id='profile_img'/>
+                            <div className='figure'>
+                            <img src='\assets\images\profile_1.jpg' alt='profile' id='profile__img' className='image-main'/>
+                            <img src='\assets\images\camera_icon.png' alt='camera icon' id='icon' className='image-hover cursor-pointer'/>
+                            </div>
+                           
                            <img src="assets/images/share_button_desktop.png" alt="share button" className='button_desktop'/>
                            <img src="assets/images/share_button_mobile.png" alt="share_button" className='button_mobile'/>
-                           <div id='camera'>
-                              <img src='assets/images/camera_icon.png' alt='camera icon' id='icon'/>
-                           </div>
                         </div>
                 
                         <br/>
                         <h1 id='slack'>Edison Nosakhare</h1>
+                        <h1 id='twitter'>Nosa</h1>
                     </header>
                 </section>
                 <section id='links'>
                     <div id='main'>
-                    <div className='twitter'>
                         <a href='https://twitter.com/edisonnosakhare' id='twitter' target='_blank'><p>Twitter Link</p></a>
-                    </div>
-                    <div className='twitter'>
-                        <a href='https://training.zuri.team/' id='btn_zuri' target='_blank' ><p>Zuri Team</p></a>
-                    </div>
-                    <div className='twitter'>
+                        <a href='https://training.zuri.team/' id='btn__zuri' target='_blank' ><p>Zuri Team</p></a>
                         <a href='https://books.zuri.team' id='books' target='_blank' ><p>Zuri books</p></a>
-                    </div>
-                    <div className='twitter'>
-                        <a href='https://books.zuri.team/python-for-beginners?ref_id = Edison Nosakhare' target='_blank' id='book_python' ><p>Python Books</p></a>
-                    </div>
-                    <div className='twitter'>
+                        <a href='https://books.zuri.team/python-for-beginners?ref_id = Edison Nosakhare' target='_blank' id='book__python' ><p>Python Books</p></a>
                         <a href='https://background.zuri.team' target='_blank' id='pitch'><p>Background Checkers for coders</p></a>
-                    </div>
-                    <div className='twitter'>
-                        <a href='https://books.zuri.team/design-rules' target='_blank' id='book_design'><p>Design Books</p></a>
-                    </div>
+                        <a href='https://books.zuri.team/design-rules' target='_blank' id='book__design'><p>Design Books</p></a>
                     </div>
                     
                     
@@ -56,7 +46,7 @@ class Main extends Component {
                     <a href='https://www.github.com/Nosa10'>
                     <img src='assets/images/github.png' alt='github'/>
                     </a><br/>
-                    
+                    <hr/>
                 </section><br/>
                 <section id='footer'>
                     <footer>
