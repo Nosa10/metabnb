@@ -24,13 +24,13 @@ class Main extends Component {
                 
                         <br/>
                         <h1 id='twitter'>Nosa</h1>
-                        {/* <h1 id='slack'>Edison Nosakhare</h1> */}
+                        <h1 id='slack'>Edison Nosakhare</h1>
                         
                     </header>
                 </section>
                 <section id='links'>
                     <div id='main'>
-                        <a href='https://twitter.com/edisonnosakhare' id='twitter' target='_blank'><p>Twitter Link</p></a>
+                        <a href='https://twitter.com/edisonnosakhare' id='twitter_' target='_blank'><p>Twitter Link</p></a>
                         <a href='https://training.zuri.team/' id='btn__zuri' target='_blank' ><p>Zuri Team</p></a>
                         <a href='http://books.zuri.team' id='books' target='_blank' ><p>Zuri books</p></a>
                         <a href='https://books.zuri.team/python-for-beginners?ref_id= Edison Nosakhare' target='_blank' id='book__python' ><p>Python Books</p></a>
