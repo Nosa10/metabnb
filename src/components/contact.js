@@ -17,21 +17,26 @@ class Contact extends Component {
 
                 <form>
                     <div className='float'>
-                        <label>First Name</label> <br/>
-                        <input id= 'first_name' type='text' placeholder='Enter your first name'/><br/><br/>
-                        <label>Last Name</label> <br/>
-                        <input id= 'last_name' type='text' placeholder='Enter your first name'/><br/><br/>
+                        <div className='float_1'>
+                            <label>First Name</label> <br/>
+                            <input id= 'first_name' type='text' placeholder='Enter your first name'/><br/><br/>
+                        </div>
+                        <div className='float_2'>
+                            <label>Last Name</label> <br/>
+                            <input id= 'last_name' type='text' placeholder='Enter your first name'/><br/><br/>
+                        </div>
+                    </div>
                         <label>Email</label> <br/>
                         <input id= 'email' type='email' placeholder='yourname@gmail.com'/><br/><br/>
                         <label>Message</label> <br/>
                         <textarea id='message' placeholder="Send me a message and I'll reply you as soon as possible..."/>
-                        <div className='float_2'>
+                        <div className='float_3'>
                             <input type='checkbox'/>
                             <label className='checkbox'>You agree to providing your data to Kharey who may contact you.</label>
                         </div>
                         <button id='btn__submit'>Send Message</button>
 
-                    </div>
+                   
                 </form>
 
             </div>
