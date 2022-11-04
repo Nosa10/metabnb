@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import header from 'react'
 import logo from './logo.svg';
 import {Navbar, NavbarBrand} from 'reactstrap';
+import { Route, Routes } from "react-router-dom";
+import Contact from './components/contact';
 import Footer from './components/footer'
 import Main from './components/main';
 import './App.css';
@@ -17,8 +19,10 @@ class App extends Component {
   render() {
     return (
       <div>
-
-        <Main/>
+        <Routes>
+          <Route path='/' element={<Main />}></Route>
+          <Route path='/contact' element={<Contact />}></Route>
+        </Routes>
         <Footer/>
       </div>
     );
