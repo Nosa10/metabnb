@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import header from 'react'
 import logo from './logo.svg';
 import {Navbar, NavbarBrand} from 'reactstrap';
+import Footer from './components/footer'
 import Main from './components/main';
 import './App.css';
 
@@ -18,6 +19,7 @@ class App extends Component {
       <div>
 
         <Main/>
+        <Footer/>
       </div>
     );
   }
