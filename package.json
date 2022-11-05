@@ -1,4 +1,5 @@
 {
+  "homepage": "http://nosa10.github.io/hng",
   "name": "confusion",
   "version": "0.1.0",
   "private": true,
@@ -12,11 +13,14 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy" : "gh-pages -d build"
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^4.0.0"
   }
 }
