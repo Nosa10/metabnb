@@ -45,7 +45,7 @@ export default function Contact(){
         }
         return errors
     }
-
+    var name = 'Kharey'
     return (
         <div className='container-2'>
           <div className='left'>
@@ -88,7 +88,7 @@ export default function Contact(){
 
                       <div className='float_3'>
                           <input type='checkbox'/>
-                          <label className='checkbox'>You agree to providing your data to Kharey who may contact you.</label>
+                          <label className='checkbox'>You agree to providing your data to {name} who may contact you.</label>
                       </div>
                       <button id='btn__submit'>Send Message</button>
 
