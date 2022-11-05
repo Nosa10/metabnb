@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import header from 'react'
 import logo from './logo.svg';
-import {Navbar, NavbarBrand} from 'reactstrap';
-import { Router,Routes, Route } from "react-router-dom";
 import Contact from './components/contact';
+import { Routes, Route } from 'react-router-dom';
 import Footer from './components/footer'
 import Main from './components/main';
 import './App.css';
@@ -21,7 +20,7 @@ class App extends Component {
       <div>
         <Routes>
           <Route path='/' element={<Main />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
+          <Route path='/contact' element={<Contact />}></Route>
         </Routes>
         <Footer/>
       </div>
