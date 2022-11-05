@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import header from 'react'
 import logo from './logo.svg';
 import {Navbar, NavbarBrand} from 'reactstrap';
-import { Route, Routes } from "react-router-dom";
+import { Router,Routes, Route } from "react-router-dom";
 import Contact from './components/contact';
 import Footer from './components/footer'
 import Main from './components/main';
