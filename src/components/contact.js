@@ -71,7 +71,7 @@ export default function Contact(){
                           value={formValues.last_name}
                           onChange={handleChange}/><br/><br/>
                       </div>
-                      <div><p className='errors' style={{color: 'red'}}>{formErrors.last_name}</p></div>
+                      <div><p className='errors' style={{color:'red'}}>{formErrors.last_name}</p></div>
                       
                   </div>
                       <label>Email</label> <br/>
