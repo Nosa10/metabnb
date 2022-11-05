@@ -45,7 +45,7 @@ export default function Contact(){
         }
         return errors
     }
-    var name = 'Edison Nosakhare'
+    var name = 'Edison Nosakhare George'
     return (
         <div className='container-2'>
           <div className='left'>
