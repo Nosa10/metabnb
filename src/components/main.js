@@ -37,7 +37,7 @@ class Main extends Component {
                         <a href='https://books.zuri.team/python-for-beginners?ref_id= Kharey' target='_blank' id='book__python' ><p>Python Books</p></a>
                         <a href='https://background.zuri.team' target='_blank' id='pitch' title='Want to review your code? Get this once in a lifetime feature at a discount price'><p>Background Checkers for coders</p></a>
                         <a href='https://books.zuri.team/design-rules' target='_blank' id='book__design' title='Have you been struggling with design? Get this free design book by Zuri and become a pro at designing in less than 1 month'><p>Design Books</p></a>
-                        <a href="/contact" target= '_blank' id='contact'>Contact Me</a>
+                        <Link to="/contact" target= '_blank' id='contact'>Contact Me</Link>
                     </div>
                     
                     
