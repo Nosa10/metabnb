@@ -66,7 +66,7 @@ export default function Contact(){
                       <div className='float_2'>
                           <label>Last Name</label> <br/>
                           <input id= 'last_name' type='text' 
-                          placeholder='Enter your first name'
+                          placeholder='Enter your last name'
                           name='last_name'
                           value={formValues.last_name}
                           onChange={handleChange}/><br/><br/>
