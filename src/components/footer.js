@@ -8,14 +8,13 @@ class Footer extends Component {
     }
     render(){
         return (
-            <section id='footer'>
-                <footer>
-                        <div><img src='\assets\images\zuri_logo (1).png' alt='zuri logo' id='logo'/></div>
-                        
-                        <div><p id='message'>HNG Internship 9 Frontend Task</p></div>
-                        <div><img src='\assets\images\I4G.png' alt='14G' className='logg'/></div>
-                    </footer>
+            <div className='footer-container'>
+                <section className='footer-subscription'>
+                    <p className='footer-subscrition-heading'>
+                        Join our vacation deals
+                    </p>
                 </section>
+            </div>
         )
     }
 }

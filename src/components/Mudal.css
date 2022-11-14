@@ -1,0 +1,110 @@
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+
+    position: absolute;
+    width: 600px;
+    height: 326px;
+    left: 420px;
+    top: 247px;
+
+    /* DTC White */
+
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+.title{
+    display: flex;
+    justify-content: space-around;
+}
+.title h3{
+    width: 182px;
+    height: 30px;
+
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #333333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.title button{
+    width: 24px;
+    height: 24px;
+    justify-content: flex-end;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none;
+    background: transparent;
+    color: red;
+}
+.input{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 12px 20px;
+gap: 135px;
+
+width: 536px;
+height: 68px;
+
+/* DTC Light Gray (BG) */
+
+background: #F8F9FA;
+/* DTC Mid Gray */
+
+border: 1px solid #CFD8DC;
+border-radius: 12px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin-bottom: 20px;
+}
+.input p{
+    width: 96px;
+height: 23px;
+
+/* 18 SemiBold */
+
+font-family: 'Sora';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+
+color: #000000;
+position: absolute;
+left: 100px;
+}
+hr{
+    color: #000000;
+}
+.input2{
+    background: #FFFFFF;
+}
+.input2 p{
+    width: fit-content;
+}

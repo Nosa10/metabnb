@@ -1,31 +1,29 @@
 import React, { Component } from 'react';
 import header from 'react'
-import logo from './logo.svg';
-import Contact from './components/contact';
-import { Routes, Route } from 'react-router-dom';
-import Footer from './components/footer'
+import { Routes, Route,Router } from 'react-router-dom';
+import { useState } from 'react';
+import Footer from './components/footer';
+import ModalExample from './components/Modal';
+import PlaceToStay from './components/PlaceToStay';
 import Main from './components/main';
+import Navbarr from './components/navbar';
+import { Button } from 'react-bootstrap';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 
-class App extends Component {
-
-  constructor(props){
-    super(props);
-
-    
-  }
-  render() {
-    return (
-      <div>
+function App() {
+  return(
+    <>
+      <Navbarr/>
+      
         <Routes>
-          <Route path='/' element={<Main />}></Route>
-          <Route path='/contact' element={<Contact />}></Route>
+          <Route path='/' element={<Main/>}></Route>
+          <Route path='/PlaceToStay' element={<PlaceToStay/>}></Route>
         </Routes>
-        <Footer/>
-      </div>
-    );
-  }
+    </>
+  )
 }
 
 export default App;
