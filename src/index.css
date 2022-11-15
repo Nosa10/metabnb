@@ -7,14 +7,29 @@ body{
   width: 100%;
   max-width: 1250px;
 }
+.place{
+  margin: 20px;
+  padding-right: 20px;
+  margin-right: 10px;
+}
+.placeLink{
+  color: black;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.placeImage{
+  width: 161px;
+  height: 48px;
+}
 .NavBar{
   margin-left: 50px;
   margin-bottom: 50px;
 }
-header a{
+.header{
   text-decoration: none;
 
-  width: 57px;
+  width: 150px;
   height: 25px;
   font-family: 'Red Rose';
   font-style: normal;
@@ -27,6 +42,11 @@ header a{
   /* text black */
 
   color: #434343;
+  margin-right: 10px;
+  display: block;
+  float: left;
+  display: inline;
+  padding: right 10px; ;
 
   
 }
@@ -35,17 +55,18 @@ header nav {
   left: 30%;
   top: 7%;
 }
-header li{
+
+.li{
   float: left;
   display: inline;
   padding: 0 20px 0 ;
 }
 .button{
-  position: absolute;
+  /* position: absolute;
   left: 600px;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
+  right: 0;
+  top: 0;
+  bottom: 0%; */
 
   /* MAJOR */
 
@@ -56,6 +77,13 @@ header li{
   color: white;
   align-items: center;
   text-align: center;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  margin-bottom: 0;
+  list-style: none;
 }
 #container{
   margin-top: 70px;

@@ -1,18 +1,16 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import "./Mudal.css"
 
-function ModalExample() {
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+function ModalExample(props) {
+  const {show, handleClose, handleShow} = props
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
-        Launch static backdrop modal
-      </Button>
+      
+      {/* <Link className="button" onClick={handleShow}>Connect Wallet
+                </Link> */}
 
       <Modal
         show={show}
@@ -21,18 +19,27 @@ function ModalExample() {
         keyboard={false}
       >
         <Modal.Header closeButton>
-          <Modal.Title>Modal title</Modal.Title>
+          <Modal.Title>Choose your preferred Wallet</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          I will not close if you click outside me. Don't even try to press
-          escape key.
+        <p>Choose your preferred Wallet</p>
+        <Button className="input">
+            <img src="assets\images\image 66.png" alt=""/>
+            <p>MetaMask</p>
+            <img src="assets\images\Vector (1).png" alt=""/>
+        </Button><br/>
+        <Button className="input input2">
+            <img src="assets\images\image 69.png" alt=""/>
+            <p>Wallet Connect</p>
+            <img src="assets\images\Vector (1).png" alt=""/>
+        </Button>
         </Modal.Body>
-        <Modal.Footer>
+        {/* <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
           <Button variant="primary">Understood</Button>
-        </Modal.Footer>
+        </Modal.Footer> */}
       </Modal>
     </>
   );

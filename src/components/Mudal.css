@@ -1,19 +1,15 @@
+.centr{
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
 .center{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 20px;
-
-    position: absolute;
+  
     width: 600px;
     height: 326px;
-    left: 420px;
-    top: 247px;
+   
 
     /* DTC White */
-
-    background: #FFFFFF;
-    border-radius: 16px;
 }
 .title{
     display: flex;
@@ -63,7 +59,7 @@ align-items: center;
 padding: 12px 20px;
 gap: 135px;
 
-width: 536px;
+width: 450px;
 height: 68px;
 
 /* DTC Light Gray (BG) */
@@ -107,4 +103,7 @@ hr{
 }
 .input2 p{
     width: fit-content;
+}
+.btn{
+    box-shadow: none !important;
 }

@@ -4,7 +4,17 @@ import {Navbar,Nav,NavLink,NavItem,Col,Container,Row} from'react-bootstrap'
 function PlaceToStay() {
   return (
     <div>
-      <Nav></Nav>
+        <Nav className="me-auto place">
+            <Nav.Link href="#" className='placeLink'>Restaurant</Nav.Link>
+            <Nav.Link href="#" className='placeLink'>Cottage</Nav.Link>
+            <Nav.Link href="#" className='placeLink'>Castle</Nav.Link>
+            <Nav.Link href="#" className='placeLink'>Fantastic City</Nav.Link>
+            <Nav.Link href="#" className='placeLink'>Beach</Nav.Link>
+            <Nav.Link href="#" className='placeLink'>Cartins</Nav.Link>
+            <Nav.Link href="#" className='placeLink'>Off-grid</Nav.Link>
+            <Nav.Link href="#" className='placeLink'>Farm</Nav.Link>
+            <img src='assets\images\Frame 13.png' className='placeImage'/>
+          </Nav>
 
       <Container>
         <Row className='cardFlex'>
