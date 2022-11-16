@@ -71,7 +71,7 @@ function Navbarr() {
       <Navbar bg="light" expand="lg">
         <Container>
           <Navbar.Brand href="/">
-          <img src='\assets\images\home.jpg'/><img src='\assets\images\Vector.jpg' />
+          <img src='\assets\images\home.jpg'className="home_image"/><img src='\assets\images\Vector.jpg' className="meta_bnb" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

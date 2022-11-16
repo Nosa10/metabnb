@@ -16,7 +16,8 @@ class Main extends Component {
     render() {
         return (
                 <div>
-                    <Container className = 'container-fluid'>
+                    <Container>
+                        <div className='home'>
                         <Row className='one'>
                             <Col sm={12} md={6} lg={5}>
                             <h2>Rent a <span>Place</span> away from  <span>Home</span> in the  <span>Metaverse</span></h2>
@@ -24,21 +25,32 @@ class Main extends Component {
                              <p>we provide you access to luxury and affordable houses in the metaverse, 
                                  get a chance to turn your imagination to reality at your comfort zone</p>
                              <br/>
+                             <div className='input-container'>
                              <input placeholder='Search for Location' />
                              <Link className='search'>Search</Link>
+                             </div>
+                             
                             </Col>
                             <Col sm={12} md={6} lg={5}>
                                 <img src='assets\images\Group 4028.png' className='img_'/>
                             </Col>
                         </Row>
+                        </div>
+                       
                         <Row className='flex1'>
-                          <Col><img src='assets\images\Group 59537.png' className='widt'/></Col>
-                          <Col><img src='assets\images\Group 4040.png' className='widt'/></Col>
-                          <Col>  <img src='assets\images\Frame 4041.png' className='widt'/></Col>
+                            <div className='contents'>
+                            <Col><img src='assets\images\Group 59537.png' className='widt'/></Col>
+                            <Col><img src='assets\images\Group 4040.png' className='widt'/></Col>
+                            <Col>  <img src='assets\images\Frame 4041.png' className='widt'/></Col>
+                            </div>
+                          
                         </Row>
                         <div className='card'>
-                            <h2>Inspiration for your next adventure</h2>
-                            <Carrd/>
+                            <div className='contents'>
+                                <h2>Inspiration for your next adventure</h2>
+                                <Carrd/>
+                            </div>
+                            
                         </div>
                         <Row className='nfts hidden-xs hidden-sm'>
                         <h3>Metabnb NFTs</h3>

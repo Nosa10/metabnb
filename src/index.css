@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: Red Rose, cursive;
+}
 body{
+  position: relative;
   margin-top: 30px;
-  margin-left: 50px;
   padding: 0 20px 0;
   min-height: 100%;
-  width: 100%;
   max-width: 1250px;
+}
+.home{
+  height: fit-content;
 }
 .place{
   margin: 20px;
@@ -148,8 +154,11 @@ span{
 }
 input{
   box-sizing: border-box;
-  width: 150px;
-  height: 54px;
+  border: 1px solid #a3a3a3;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+  padding: 15px;
+  width: 70%;
 
   /* position: absolute;
   left: 0%;
@@ -158,8 +167,6 @@ input{
   bottom: 0%; */
 
   background: rgba(247, 247, 247, 0.1);
-  border: 1px solid #A3A3A3;
-  border-radius: 8px 0px 0px 8px;
 }
 .search{
   position: absolute;
@@ -168,7 +175,7 @@ input{
   top: 86.48%;
   bottom: 0.02%; */
   height: 54px;
-  width: 80px;
+  width: 30%;
   padding-top: 15px;
   padding-bottom: 20px;
   font-family: 'Red Rose';
@@ -183,6 +190,7 @@ input{
   color: #FFFFFF;
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
   border-radius: 0px 8px 8px 0px
+  
 }
 
 @media (max-width:912px) {
@@ -202,21 +210,26 @@ input{
   /* position: absolute; */
   width: 100vw;
   height: 70px;
-  left: 0;
-  right: 0;
-  top: 700px;
-  margin-top: 50px;
-  margin-left: -65px;
-  height: 70px;
+  margin-left: -6%;
   
-  margin: 0;
-  padding: 0;
   margin-top: 50px;
-  margin-left: -100px;
 
   /* MAJOR */
 
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+}
+@media  (min-width:1000px) {
+  .flex1 .contents{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.flex1 .contents{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 .card h2{
   /* font-family: 'Red Rose';
@@ -234,7 +247,7 @@ input{
   height: 60px;
   text-align: center;
   align-items: center;
-  margin: 0 auto;
+  margin: 50px 0;
   font-family: 'Red Rose';
   font-style: normal;
   font-weight: 700;
@@ -249,37 +262,41 @@ input{
 }
 .card{
   border: none;
+  margin-top: 60px ;
+}
+.card .contents{
+  margin: 0 auto;
+  width: 85%;
 }
 .cardFlex{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  
 
   /* margin-left: 50px; */
 }
 .cardFlex img{
   width: 292px;
   height: 372;
-  padding-bottom: 20px;
-  padding-right: 30px;
+  
+
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+ 
 }
 .nfts{
   display: flex;
   box-sizing: border-box;
-
   position: absolute;
-  height: 700px;
-  top: 1604px;
   width: 100vw;
-  padding: 10px 100px;
-  gap: 264px;
+  height: 200px;
 
   /* position: absolute; */
   margin-top: 20px;
-  margin-left: -95px;
-
+  margin-left: -6%;
   /* MAJOR */
-
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
   border: 1px solid #000000;
 }
@@ -311,7 +328,7 @@ input{
   right: 64.24%;
   top: 36.3%;
   bottom: 46.12%;
-
+  height: 300px;
   font-family: 'Red Rose';
   font-style: normal;
   font-weight: 400;
@@ -343,14 +360,14 @@ input{
   color: #A02279;
 }
 .nfts img{
-  width: 450px;
+  width: 40px;
   margin-top: 50px;
 }
 
 .right{
   float: right;
   position: absolute;
-  width: 104px;
+  width: 14px;
   height: 570px;
   left: 600px;
   top: 100px;
@@ -359,6 +376,7 @@ input{
 .widt{
   width: 80%;
   gap: 20px;
+  vertical-align: middle;
 }
 a:hover{
   color: black;
@@ -370,9 +388,11 @@ button:hover{
 @media(max-width:1024px) {
   .nfts{
     width: 100%;
-  }
+    height: 774px;
+}
   .nfts img{
     width: 350px;
+    height: 550px;
   }
 }
 .nfts2{
@@ -380,11 +400,10 @@ button:hover{
   box-sizing: border-box;
   height: 700px;
   width: 100vw;
-  margin: 0;
+  margin-top: 80px;
   padding: 0;
   padding: 10px 100px;
-  gap: 264px;
-  margin-left: -90px;
+  margin-left: -6%;
 
   /* position: absolute; */
  
@@ -395,11 +414,9 @@ button:hover{
   border: 1px solid #000000;
 }
 .nfts2 img{
-  width: 280px;
-  position: absolute;
-  top: -250px;
-  right: -100px;
-  left: -100px;
+  width: 200px;
+  margin: 0 auto;
+ 
 
 } 
 @media(max-width:912px) {
@@ -412,15 +429,16 @@ button:hover{
   .card h2{
     display: flex;
     flex-wrap: wrap;
-    font-size: 20px;
+    font-size: 50px;
     align-items: start;
     text-align: start;
   }
   .cardFlex img{
-    width: 200px;
+    width: 270px;
   }
   .nfts{
-    width: 95%;
+    width: 100%;
+    margin-left: -12%;
   }
   .nfts img{
     width: 380px;
@@ -439,7 +457,7 @@ button:hover{
     height: 725px;
     width: 100vw;
     max-width: 767px;
-    margin-left: -65px;
+    margin-left: 0px;
    
   }
   .nfts2 img{
@@ -502,30 +520,14 @@ button:hover{
     font-size: 16px;
     line-height: 30px;
   }
-  .nfts2{
+  /* .nfts2{
     height: 725px;
     width: 100vw;
     max-width: 400px;
    
-  }
+  } */
 }
-@media (max-width:281px) {
-  h2{
-    font-size: 28px;
-  }
-  .search{
-    width: 65px;
-  }
-  input{
-    width: 145px;
-  }
-  .card h2{
-    font-size: 14px;
-  }
-  .nfts2{
-    display: none;
-  }
-}
+
 @media(min-width:769px){
   .nfts2{
     display: none;
@@ -596,3 +598,63 @@ button:hover{
   }
 }
 
+@media screen and (max-width:768px){
+  html,body{
+    overflow-x: hidden;
+  }
+  body{
+    padding-left: 20px;
+    width: 100vw;
+  }
+  .home{
+    
+    margin-bottom: 40px;
+    height: fit-content;
+    width: 90%;
+  }
+  .input-container{
+    width: 100%;
+  }
+  .flex1{
+    margin-top: 5px;
+    margin-left: -12%;
+  }
+  .flex1 .contents {
+    width: 90%;
+  }
+  .flex1 img{
+    width: 75%;
+  }
+  .card h2{
+    font-size: 19px;
+  }
+  .nfts2{
+    margin-left: -12%;
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width:281px) {
+  .home_image{
+    width: 60px;
+    height: 40px;
+  }
+  .meta_bnb{
+    width: 60px;
+    height: 40px;
+  }
+  input{
+    font-size: 10px;
+  }
+  .search{
+    height: 47px;
+  }
+  .card h2{
+    font-size: 15px;
+  }
+  .flex1{
+    margin-left: -16%;
+  }
+  .nfts2{
+    margin-left: -16%;
+  }
+}

@@ -22,6 +22,7 @@ function App() {
           <Route path='/' element={<Main/>}></Route>
           <Route path='/PlaceToStay' element={<PlaceToStay/>}></Route>
         </Routes>
+        <Footer/>
     </>
   )
 }
