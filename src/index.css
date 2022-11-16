@@ -420,6 +420,9 @@ button:hover{
 
 } 
 @media(max-width:912px) {
+  html,body{
+    overflow-x: hidden;
+  }
   .NavBar{
     display: none;
   }
@@ -437,7 +440,7 @@ button:hover{
     width: 270px;
   }
   .nfts{
-    width: 100%;
+    width: 910px;
     margin-left: -12%;
   }
   .nfts img{
@@ -534,6 +537,9 @@ button:hover{
   }
 }
 @media(min-width:1030px) {
+  html,body{
+    overflow-x: hidden;
+  }
   h2{
     width: 646px;
   height: 148px;
@@ -656,5 +662,12 @@ button:hover{
   }
   .nfts2{
     margin-left: -16%;
+  }
+}
+@media screen and (max-width:812px) {
+  .footer{
+    position: absolute;
+    top: 0;
+    bottom: 0;
   }
 }
