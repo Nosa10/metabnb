@@ -37,6 +37,7 @@ class Main extends Component {
                         </Row>
                         </div>
                        
+                        <Container-lg>
                         <Row className='flex1'>
                             <div className='contents'>
                             <Col><img src='assets\images\Group 59537.png' className='widt'/></Col>
@@ -44,7 +45,9 @@ class Main extends Component {
                             <Col>  <img src='assets\images\Frame 4041.png' className='widt'/></Col>
                             </div>
                           
-                        </Row>
+                        </Row> 
+                        </Container-lg>
+                        
                         <div className='card'>
                             <div className='contents'>
                                 <h2>Inspiration for your next adventure</h2>
@@ -52,31 +55,21 @@ class Main extends Component {
                             </div>
                             
                         </div>
-                        <Row className='nfts hidden-xs hidden-sm'>
-                        <h3>Metabnb NFTs</h3>
-                             <p>Discover our NFT gift cards collection. Loyal customers gets 
-                                 amazing gift cards which are traded as NFTs.
-                                 These NFTs gives our cutomer access to loads of our exclusive services.
-                             </p>
-                             <input type='button' value='Learn More'/>
-                                <div className='right'>
+                        </Container>
+                        <Row className='nfts'>
+                                <div className='column'>
+                                <h3>Metabnb NFTs</h3>
+                                    <p>Discover our NFT gift cards collection. Loyal customers gets 
+                                        amazing gift cards which are traded as NFTs.
+                                        These NFTs gives our cutomer access to loads of our exclusive services.
+                                    </p>
+                                    <input type='button' value='Learn More'/>
+                                </div>
+                                <div className='column'>
                                      <img src='assets\images\Frame 59546.png'/>
                                 </div>
                         </Row>
-                        <Row className='nfts2' sm={12}>
-                            <Col sm={12}>
-                                <h3>Metabnb NFTS</h3>
-                                <p>Discover our NFT gift cards collection. Loyal customers gets 
-                                 amazing gift cards which are traded as NFTs.
-                                 These NFTs gives our cutomer access to loads of our exclusive services.
-                             </p>
-                             <input type='button' value='Learn More'/>
-                            </Col>
-                            <Col>
-                                <img src='assets\images\Frame 59546.png'/>
-                            </Col>
-                        </Row>
-                    </Container>
+                    
                 </div>
             // <div id='container'>
             //     <Container>
